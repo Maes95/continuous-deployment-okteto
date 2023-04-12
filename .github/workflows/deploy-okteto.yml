@@ -1,7 +1,8 @@
 name: Deploy in Okteto
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   deploy_in_okteto:
